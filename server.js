@@ -21,10 +21,10 @@ app.get("/test", (req, res) => {
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "idracloudperu@gmail.com",
-    pass: "Peru.2021@@",
-    // user: "nilovila18@gmail.com",
-    // pass: "Nilonilo18$",
+    // user: "idracloudperu@gmail.com",
+    // pass: "Peru.2021@@",
+    user: "nilovila18@gmail.com",
+    pass: "Nilonilo18$",
   },
 });
 
