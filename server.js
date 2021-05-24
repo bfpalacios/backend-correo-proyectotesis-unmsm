@@ -55,7 +55,7 @@ app.post("/email", (req, res) => {
     transporter.sendMail(
       {
         from: `${process.env.name} <${process.env.email}>`,
-        to: ["nilovila18@gmail.com", "idracloudperu@gmail.com"],
+        to: ["idracloudperu@gmail.com"],
         subject: "Confirmación de compra",
         html: contentHTML,
       },
